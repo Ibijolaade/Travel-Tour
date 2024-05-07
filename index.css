@@ -1,0 +1,59 @@
+body{
+    
+}
+
+header{
+    background-image: url(images/backgroud.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+
+.nav-links a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 30px;
+    
+}
+
+button{
+    border: 1px solid turquoise;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 300;
+    color: turquoise;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h4{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
